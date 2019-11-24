@@ -1,0 +1,103 @@
+body {
+	background-image: url('img/ocean.jpg');
+}
+
+.top {
+	text-align: center;
+	width: 100%;
+	font-family: 'AppleGothic', sans-serif;
+	padding-top: 20px;
+}
+
+.meta {
+	font-weight: 900;
+	font-size: 60px;
+	text-transform: uppercase;
+	animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  	transform: translate3d(0, 0, 0);
+  	animation-direction: alternate-reverse;
+}
+
+.kingdom {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -300px;
+  }
+}
+
+@keyframes swell {
+	0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
+.treeAnimals {
+	display: flex;
+	margin-left: 10%;
+	height: 500px;
+}
+
+.animals {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 10px;
+	font-family: 'AppleGothic', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.tree img {
+	height: 1300px;
+	margin-left: -150px;
+	position: absolute;
+}
+
+.animal img {
+	width: 60px;
+	height: 60px;
+}
+
+.tree3 {
+	margin-top: 5px;
+}
+
+.tree2 {
+	margin-top: 10px;
+}
+
+.tree2 img {
+	margin-bottom: 5px;
+}
+
+#animalImg {
+	width   : 500px;
+    height   : 500px;
+}
+
+.animalFact {
+	display: none;
+	width: 100%;
+}
+
+.fact {
+	font-family: 'AppleGothic', sans-serif;
+	font-size: 27px;
+	margin: 20px;
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
