@@ -23,6 +23,10 @@ body {
 	font-size: 30px;
 }
 
+.click {
+	font-size: 20px;
+}
+
 @keyframes wave {
   0% {
     margin-left: 0;
@@ -100,4 +104,3 @@ body {
 	flex-direction: column;
 	padding-top: 30px;
 }
-
